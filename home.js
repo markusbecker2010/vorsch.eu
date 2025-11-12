@@ -4,7 +4,7 @@ window.addEventListener('load', function () {
     {
         document.title = 'HTMLPreviewer';
         document.getElementById('form').style.display = 'block';
-        document.getElementById('loading').style.display = 'none';
+        document.getElementById('laden').style.display = 'none';
         return;
     }
     
@@ -14,7 +14,7 @@ window.addEventListener('load', function () {
         console.log('# Fehlt');
         document.title = 'HTMLPreviewer';
         document.getElementById('form').style.display = 'block';
-        document.getElementById('loading').style.display = 'none';
+        document.getElementById('laden').style.display = 'none';
     }
 });
 
